@@ -50,14 +50,14 @@ function TodoList() {
         
         <TodoForm onSubmit={addTodo} />
         
-        <div className='filter'>
+        {/* <div className='filter'>
             <button>
             All</button>
             <button>
             Completed</button>
             <button>
             Uncompleted</button>
-        </div>
+        </div> */}
 
         <Todo todos={todos} 
             completeTodo={completeTodo} 
